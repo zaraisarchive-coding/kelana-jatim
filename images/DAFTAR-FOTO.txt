@@ -1,0 +1,10 @@
+Taruh foto hasil export Figma di folder ini. Nama file harus huruf kecil semua
+(ekstensi boleh jpg/jpeg/png/webp).
+
+logo.png (sudah ada)
+hero-tumpak-sewu, hero-ijen, hero-baluran
+bromo, klayar, sarangan, djawatan, ijen, semeru, papuma, balekambang,
+tumpaksewu, cobanrondo, madakaripura, penataran, kotalama, trowulan
+kuliner, kota-lama, trawas, batik
+ayu, ijen-ayu, jeep-bromo
+subscribe

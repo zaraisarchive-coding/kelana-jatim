@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kelana Jatim — Jelajahi Pesona Jawa Timur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="navbar">
+  <a href="#home" class="logo" aria-label="Kelana Jatim"><img src="images/logo.png" alt="Kelana Jatim"></a>
+  <button class="burger" id="burger" aria-label="Buka menu"><span></span><span></span><span></span></button>
+  <nav class="menu" id="menu">
+  <div class="menu-links">
+    <a href="#destinasi" class="active">Destinasi</a>
+    <a href="#panduan">Panduan</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#inspirasi">Inspirasi</a>
+  </div>
+  <div class="menu-actions">
+    <button class="btn btn-cream" data-modal="Register">Register</button>
+    <button class="btn" data-modal="Login">Login</button>
+  </div>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Jelajahi Pesona <span class="gold">Tersembunyi</span> Jawa Timur</h1>
+    <p>Temukan keindahan alam, kekayaan budaya, dan sejarah yang tak terlupakan di ujung timur Pulau Jawa. Dari kawah gunung berapi langka hingga pantai eksotis, petualangan terbesarmu dimulai di sini.</p>
+    <a href="#destinasi" class="btn">Mulai Petualangan!</a>
+  </div>
+  <div class="hero-photos">
+    <img class="p1" src="images/Air Terjun Tumpak Sewu.png" alt="Air terjun Tumpak Sewu">
+    <img class="p2" src="images/Kawah Ijen.png" alt="Kawah Ijen">
+    <img class="p3" src="images/Taman Nasional Baluran.png" alt="Savana Baluran">
+  </div>
+</section>
+
+<section class="section" id="destinasi">
+  <h2>Destinasi Terpopuler</h2>
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-cat="populer">Populer</button>
+    <button class="tab" data-cat="gunung">Pegunungan</button>
+    <button class="tab" data-cat="pantai">Pantai</button>
+    <button class="tab" data-cat="airterjun">Air Terjun</button>
+    <button class="tab" data-cat="sejarah">Sejarah</button>
+  </div>
+  <div class="cards" id="cards"></div>
+  <div class="center"><button class="btn" id="moreDest">Lihat Semua Destinasi</button></div>
+</section>
+
+<section class="section" id="panduan">
+  <div class="head-row">
+    <h2>Cerita Terbaru</h2>
+    <a href="#" class="btn btn-outline">Lihat Semua Cerita</a>
+  </div>
+  <div class="stories">
+    <article class="story-big">
+      <img src="images/Lontong Kupang.png" alt="Kuliner Sidoarjo dan Surabaya">
+      <span class="cat">Kuliner &amp; Panduan</span>
+      <h3>Panduan Kuliner Legendaris Sidoarjo &amp; Surabaya: 10 Tempat Wajib Coba 2026</h3>
+      <time>10 Nov 2026 • 7 min baca</time>
+      <p>Mencari lontong kupang atau rawon kalkulator yang otentik? Berikut adalah daftar rekomendasi kuliner malam yang akan memanjakan lidahmu setelah lelah berkeliling kota.</p>
+    </article>
+    <div class="story-list">
+      <article class="story-sm">
+        <img src="images/Kota Lama Surabaya.png" alt="Kota Lama Surabaya">
+        <div><span class="cat">Sejarah &amp; Budaya</span><h4>Menyusuri Jejak Eropa di Kota Lama Surabaya: Spot Foto Paling Estetik</h4><time>8 Nov 2026 • 5 min baca</time></div>
+      </article>
+      <article class="story-sm">
+        <img src="images/Cafe Trawas.png" alt="Cafe Trawas">
+        <div><span class="cat">Gaya Hidup</span><h4>Cafe Hopping di Trawas: 5 Spot Ngopi Syahdu dengan View Pegunungan</h4><time>5 Nov 2026 • 6 min baca</time></div>
+      </article>
+      <article class="story-sm">
+        <img src="images/Batik Jetis Sidoarjo.png" alt="Batik Jetis">
+        <div><span class="cat">Seni &amp; Budaya</span><h4>Pesona Batik Jetis Sidoarjo: Berburu Kain Tradisional Langsung dari Pengrajin</h4><time>1 Nov 2026 • 7 min baca</time></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="galeri">
+  <h2>Pengalaman Kelana</h2>
+  <div class="exp">
+    <div class="review">
+      <div class="who"><img src="images/Foto Ayu Lestari.png" alt="Ayu Lestari"><div><b>Ayu Lestari</b><span>Travel Blogger</span></div></div>
+      <div class="stars" aria-label="5 bintang">★★★★★</div>
+      <h4>Perjalanan Magis yang Tak Terlupakan!</h4>
+      <p>Menjelajah Bromo hingga Kawah Ijen bersama panduan Kelana Jatim benar-benar luar biasa. Lanskap alamnya tertata rapi, sangat estetik, dan nuansa budaya lokalnya terasa kental. Pengalaman liburan terbaik tahun ini!</p>
+    </div>
+    <img class="exp-photo" src="images/Foto Pengalaman.png" alt="Ayu di Kawah Ijen">
+    <figure class="video">
+      <div class="video-thumb" id="videoThumb"><img src="images/Foto Jeep.png" alt="Jeep Bromo Tour"><button class="play" id="playBtn" aria-label="Putar video"><i></i></button></div>
+      <figcaption>Cuplikan dari Jeep Bromo Tour</figcaption>
+      <a href="#" class="btn btn-outline small">Lihat Semua Cerita</a>
+    </figure>
+  </div>
+</section>
+
+<section class="subscribe" id="inspirasi">
+  <img class="sub-bg" src="images/Background Ranu Kumbolo.png" alt="">
+  <h2>Dapatkan Inspirasi Liburan di Jawa Timur Langsung di Kotak Masukmu</h2>
+  <form id="subForm" novalidate>
+    <input type="email" id="email" placeholder="Masukkan alamat email..." aria-label="Email">
+    <button class="btn" type="submit">Berlangganan</button>
+  </form>
+  <p class="msg" id="subMsg">Dengan berlangganan, kamu menyetujui Kebijakan Privasi kami.</p>
+</section>
+</main>
+
+<footer>
+  <div class="foot">
+    <div class="foot-brand">
+      <a href="#home" class="logo" aria-label="Kelana Jatim"><img src="images/logo.png" alt="Kelana Jatim"></a>
+      <p>Ikuti perjalanan kami</p>
+      <div class="social"><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a><a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><a href="#" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></div>
+    </div>
+    <div><h5>Tentang Kami</h5><a href="#galeri">Cerita Kelana</a><a href="#inspirasi">Hubungi Kami</a><a href="#galeri">Karir</a><a href="#inspirasi">Syarat &amp; Ketentuan</a><a href="#inspirasi">Kebijakan Privasi</a></div>
+    <div><h5>Kategori Wisata</h5><a href="#destinasi">Pegunungan</a><a href="#destinasi">Pantai &amp; Laut</a><a href="#destinasi">Sejarah &amp; Budaya</a><a href="#panduan">Kuliner</a><a href="#panduan">Penginapan</a></div>
+    <div><h5>Destinasi Populer</h5><a href="#destinasi">Bromo Tengger</a><a href="#destinasi">Kawah Ijen</a><a href="#destinasi">Kota Batu</a><a href="#destinasi">Pacitan</a><a href="#destinasi">Banyuwangi</a></div>
+    <div><h5>Pusat Bantuan</h5><a href="#panduan">Panduan Transportasi</a><a href="#panduan">Tips Cuaca Jatim</a><a href="#panduan">Sewa Jeep Bromo</a><a href="#panduan">Pusat Informasi Turis</a></div>
+  </div>
+  <div class="copy">© 2026 Kelana Jatim. Seluruh hak cipta dilindungi.</div>
+</footer>
+
+<button class="totop" id="toTop" aria-label="Kembali ke atas">↑</button>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <button class="close" id="closeModal" aria-label="Tutup">×</button>
+    <h3 id="modalTitle">Login</h3>
+    <form id="authForm" novalidate>
+      <input type="text" id="name" placeholder="Nama lengkap" hidden>
+      <input type="email" id="mEmail" placeholder="Email">
+      <input type="password" id="mPass" placeholder="Kata sandi (min. 6 karakter)">
+      <p class="err" id="authErr"></p>
+      <button class="btn" type="submit" id="authSubmit">Login</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
